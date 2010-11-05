@@ -1,3 +1,4 @@
+// Firefox was tested using persevere's global-es5 for es5 emulation
 (function () {
   require('remedial');
 
