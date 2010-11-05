@@ -3,7 +3,7 @@
   "description"   : "Douglas Crockford's Remedial JavaScript",
   "url"           : "http://javascript.crockford.com/remedial.html",
   "keywords"      : ["util", "isEmpty", "typeOf", "entityify", "quote", "supplant", "trim"],
-  "author"        : "Douglas Crockford (packaged by AJ ONeal <coolaj86@gmail.com>)",
+  "author"        : "Douglas Crockford <douglas@crockford.com>",
   "contributors"  : [],
   "dependencies"  : [],
   "lib"           : "lib",
