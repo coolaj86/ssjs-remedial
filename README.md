@@ -10,7 +10,7 @@ This works in both the Browser and SSJS.
     require('remedial');
 
 
-Usage / API
+Globals
 ====
 
 typeOf(o)
@@ -37,8 +37,8 @@ isEmpty(v)
 
 isEmpty(v) returns true if v is an object containing no enumerable members.
 
-**String Methods**
-----
+String Methods
+====
 
 JavaScript provides some useful methods for strings, but leaves out some important ones. Fortunately, JavaScript allows us to add new methods to the basic types.
 
