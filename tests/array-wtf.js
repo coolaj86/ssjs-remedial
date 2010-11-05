@@ -40,6 +40,20 @@
   console.log(typeOf(c));
   // Expected: array
   // Node/V8/FF: object
+
+
+  d = Object.create(Array);
+  // FF: Error: typeof prototype[function] != 'object'
+  d[2] = 27;
+  console.log(d);
+  // Expected: [undefined, undefined, 27];
+  // Node/V8: { '2': 27 }
+  console.log(d.length);
+  // Expected: 3
+  // Node/V8/FF: 1
+  console.log(typeOf(d));
+  // Expected: array
+  // Node/V8: object
 }());
 
 /*
