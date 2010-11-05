@@ -14,6 +14,7 @@ Usage / API
 ====
 
 typeOf(o)
+----
 
 Since JavaScript is a loosely-typed language, it is sometimes necessary to examine a value to determine its type. (This is sometimes necessary in strongly typed languages as well.) JavaScript provides a typeof  operator to facilitate this, but typeof has problems. 
 
