@@ -12,9 +12,10 @@ This works in both the Browser and SSJS.
 Notes
 ----
 
-This uses the ["Flanagan / Miller device"](http://groups.google.com/group/nodejs/msg/0670a986a2906aeb) rather than the Crockford's original.
+`typeOf` is taken from `jQuery.type`, which is more accurate than Crockford's original and even simpler
+than the ["Flanagan / Miller device"](http://groups.google.com/group/nodejs/msg/0670a986a2906aeb).
 
-There is [a more specific typeof()](http://rolandog.com/archives/2007/01/18/typeof-a-more-specific-typeof/) implementation worthy of consideration.
+There is [a more specific typeof()](http://rolandog.com/archives/2007/01/18/typeof-a-more-specific-typeof/) implementation also worthy of consideration.
 
 Globals
 ====

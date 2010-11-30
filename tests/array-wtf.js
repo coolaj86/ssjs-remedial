@@ -24,7 +24,7 @@
   // Expected: 3
   // Node/V8/FF: 0
   console.log(typeOf(b));
-  // Expected: Object
+  // Expected: Object (with Flanagan / Miller device or jQuery's type)
   // Node/V8/FF: array (with Crockford's original)
 
 
