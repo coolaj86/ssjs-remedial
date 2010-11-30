@@ -9,6 +9,12 @@ This works in both the Browser and SSJS.
 
     require('remedial');
 
+Notes
+----
+
+This uses the ["Flanagan / Miller device"](http://groups.google.com/group/nodejs/msg/0670a986a2906aeb) rather than the Crockford's original.
+
+There is [a more specific typeof()](http://rolandog.com/archives/2007/01/18/typeof-a-more-specific-typeof/) implementation worthy of consideration.
 
 Globals
 ====

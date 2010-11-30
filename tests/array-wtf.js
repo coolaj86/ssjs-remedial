@@ -1,6 +1,6 @@
 // Firefox was tested using persevere's global-es5 for es5 emulation
 (function () {
-  require('remedial');
+  require('../lib/remedial');
 
   a = [];
   a[2] = 27;
@@ -24,7 +24,8 @@
   // Expected: 3
   // Node/V8/FF: 0
   console.log(typeOf(b));
-  // array
+  // Expected: Object
+  // Node/V8/FF: array (with Crockford's original)
 
 
   c = Object.create([]);
@@ -39,7 +40,7 @@
   // Expected: 3
   // Node/V8/FF: 1
   console.log(typeOf(c));
-  // Expected: array
+  // Expected: object
   // Node/V8/FF: object
 
 
@@ -53,7 +54,7 @@
   // Expected: 3
   // Node/V8/FF: 1
   console.log(typeOf(d));
-  // Expected: array
+  // Expected: object
   // Node/V8: object
 }());
 
