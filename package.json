@@ -8,5 +8,5 @@
   "dependencies"  : [],
   "lib"           : "lib",
   "main"          : "./lib/remedial",
-  "version"       : "1.0.4"
+  "version"       : "1.0.5"
 }
